@@ -1,0 +1,16 @@
+sandani@ubuntu-server:~$ sudo ufw status verbose
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                   # SSH
+53                         ALLOW IN    Anywhere                   # DNS
+67/udp                     ALLOW IN    Anywhere                   # DHCP
+80/tcp                     ALLOW IN    Anywhere                   # HTTP
+22/tcp (v6)                ALLOW IN    Anywhere (v6)              # SSH
+53 (v6)                    ALLOW IN    Anywhere (v6)              # DNS
+67/udp (v6)                ALLOW IN    Anywhere (v6)              # DHCP
+80/tcp (v6)                ALLOW IN    Anywhere (v6)              # HTTP
